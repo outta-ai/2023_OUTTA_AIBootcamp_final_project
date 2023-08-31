@@ -20,16 +20,15 @@
 Command for data preprocessing:
 
 ```
-python preproc_datasets_celeba.py --source=../DATA/celeba_dialog/image/ \
-                                  --annotation=../DATA/celeba_dialog/captions_hq.json \
-                                  --dest=CelebA_CLIP_ViTB32.zip --width=256 --height=256 \
-                                  --transform=center-crop --emb_dim 512
+python preproc_datasets_celeba_zip_train.py --source=./multimodal_celeba_hq.zip \
+                                            --dest train_data_6cap.zip --width 256 --height 256 \
+                                            --transform center-crop --emb_dim 512 --width=256 --height=256
 ```
 
-Files at directory `../DATA/celeba_dialog/` is like:
+Zip files at directory `./multimodal_celeba_hq.zip` is like:
 
 ```
-../DATA/celeba_dialog/
+./multimodal_celeba_hq.zip
   ├── image
   │   ├── 0.jpg
   │   ├── 1.jpg
