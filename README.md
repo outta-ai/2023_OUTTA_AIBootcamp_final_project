@@ -10,7 +10,7 @@
 <br>
 이 프로젝트는 Google Colab 환경에서 시행되는 것을 기본으로 하여 제작되었습니다.<br>
 <br>
-### CelebA-Dialog
+### MM-CelebA-HQ-Dataset
 
 데이터셋은 다음의 [링크](https://drive.google.com/drive/folders/1HwCTiyUUiN71fATB56Ea8qfUEq-X8AG7?usp=sharing)에서 다운로드 받을 수 있습니다.<br>
 <br>
