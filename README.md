@@ -2,6 +2,10 @@
 ![T2 Image Model](./T2Imodel.PNG)
 이 프로젝트는 2023 제 2회 OUTTA AI 부트캠프 딥러닝반의 최종 팀 프로젝트를 위한 스켈레톤 코드입니다.<br>
 <br>
+이 프로젝트는 주어진 text prompt에 대응되는 이미지를 생성하는 task입니다.<br>
+<br>
+이번 프로젝트에서는 Conditional GAN 을 이용하여 간단한 T2I Generation model 을 구현해 보는 것을 목표로 합니다.<br>
+<br>
 이 프로젝트를 수행하기 위해서는 'network.py' 파일과 'train.py' 파일을 수정하셔야 하며, 다른 파일은 수정하지 않는 것을 추천 드립니다.<br>
 <br>
 이 프로젝트에 대한 자세한 가이드라인 및 평가 기준은 업로드되어 있는 '2023_final_project_guideline.pdf'를 참고하시길 바랍니다.<br>
