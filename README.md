@@ -50,3 +50,6 @@ Zip files at directory `./multimodal_celeba_hq.zip` is like:
 ## Reference 
 
 This repository is implemented based on [LAFITE](https://github.com/drboog/Lafite), [StackGAN++](https://github.com/hanzhanggit/StackGAN-v2/tree/master) and [AttnGAN](https://github.com/taoxugit/AttnGAN/tree/master).
+
+## 공지
+본 프로젝트를 활용하실 경우, 반드시 OUTTA의 출처를 남겨주시길 바랍니다. OUTTA의 허가 없이 함부로 자료를 무단 배포하는 것을 엄격히 금합니다.
