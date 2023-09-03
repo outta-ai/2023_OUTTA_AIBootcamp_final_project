@@ -21,7 +21,7 @@
 데이터셋의 출처는 [다음](https://github.com/IIGROUP/MM-CelebA-HQ-Dataset)과 같습니다.
 
 
-Command for data preprocessing:
+데이터 전처리를 위해서는 다음을 입력하세요.:
 
 ```
 python preproc_datasets_celeba_zip_train.py --source=./multimodal_celeba_hq.zip \
@@ -29,7 +29,7 @@ python preproc_datasets_celeba_zip_train.py --source=./multimodal_celeba_hq.zip 
                                             --transform center-crop --emb_dim 512 --width=256 --height=256
 ```
 
-Zip files at directory `./multimodal_celeba_hq.zip` is like:
+Zip file인 `./multimodal_celeba_hq.zip` 의 구조는 다음과 같습니다.:
 
 ```
 ./multimodal_celeba_hq.zip
